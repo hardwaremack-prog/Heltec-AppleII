@@ -25,9 +25,10 @@ A sibling of Heltec-C64 and Heltec-Mac.
 
 ## 1. Flash it
 
-**Web flasher:** put this repo on GitHub with Pages turned on, then open
-`https://<you>.github.io/Heltec-AppleII/flasher/` in Chrome or Edge, plug the board in with USB‑C,
-click **INSTALL HELTEC-APPLEII**, pick its port and click Install. Tick *Erase* the first time.
+**Easiest:** open the **[Heltec-AppleII Flasher](https://hardwaremack-prog.github.io/Heltec-AppleII/flasher/)** in
+Chrome or Edge on a computer, plug the board in with USB‑C, click **INSTALL HELTEC-APPLEII**, pick its
+port and click Install. Tick *Erase* the first time; leave it unticked when updating so your ROM and
+disk images are kept. Press the board's RST button when it's done.
 
 **Or with esptool** (`pip install esptool`):
 ```
