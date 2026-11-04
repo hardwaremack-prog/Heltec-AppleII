@@ -1,0 +1,6 @@
+host/a2host
+host/a2srv
+host/cputest
+*.o
+__pycache__/
+*.rom

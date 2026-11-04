@@ -1,0 +1,14 @@
+{
+  "name": "Heltec-AppleII",
+  "version": "2026.11.4",
+  "new_install_prompt_erase": true,
+  "new_install_improv_wait_time": 0,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "../firmware/Heltec-AppleII.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
